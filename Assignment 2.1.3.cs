@@ -66,8 +66,7 @@ namespace Assignment2_1_3
             Console.WriteLine("1. Circle");
             Console.WriteLine("2. Square");
             int userChoice = GetRequiredInt("Enter your choice (1 or 2): ");
-
-            Shape? shape = null;
+            Shape shape;
 
             switch (userChoice)
             {
